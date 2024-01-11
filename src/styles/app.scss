@@ -31,11 +31,31 @@ a {
 .green {
   color: rgb(0, 195, 0);
 }
-.heading{
-  font-size: 12px;
-  font-weight: bold;
-  color:red;
+.home-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(247, 247, 247);
+
+
+  .heading{
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+    margin: 5px;
+  }
+  .button{
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(65, 65, 249);
+    border: none
+  }
+
 }
+
 
 .admin-container {
   @include grid(1fr 4fr, 2rem);
