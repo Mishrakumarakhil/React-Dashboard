@@ -31,6 +31,11 @@ a {
 .green {
   color: rgb(0, 195, 0);
 }
+.heading{
+  font-size: 12px;
+  font-weight: bold;
+  color:red;
+}
 
 .admin-container {
   @include grid(1fr 4fr, 2rem);

@@ -31,7 +31,10 @@ const App = () => {
             path="/"
             element={
               <Link to="/admin/dashboard">
-                <button>Visit Dashboard</button>
+                <div className="home-page">
+                <p className="heading">Dashboard access click on Visit Dashboard button.</p>
+                <button className="button">Visit Dashboard</button>
+                </div>
               </Link>
             }
           />
